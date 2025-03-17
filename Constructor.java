@@ -32,7 +32,7 @@ public class Constructor {
 	public static void main(String[] args) throws ClassNotFoundException
 	{
 		Human obj=new Human();
-		Human obj1=new Human();
+		// Human obj1=new Human();
 		System.out.println(obj.getName()+" : "+obj.getAge());
 		
 		obj.SetAge(30);
@@ -43,3 +43,6 @@ public class Constructor {
 	}
 }
 
+
+
+// if parameterized constructor is created then default constructor is not created by compiler
