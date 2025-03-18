@@ -32,3 +32,15 @@ public class  UpcastingDowncasting{
     	obj1.show2();
     }
 }
+
+
+// class Animal {
+//     void eat() { System.out.println("Animal eats"); }
+// }
+// class Dog extends Animal {
+//     void bark() { System.out.println("Dog barks"); }
+// }
+
+// Animal a = new Dog(); // Upcasting
+// a.eat(); // Works (eat() is in Animal)
+// // a.bark(); // Error: bark() is not in Animal
